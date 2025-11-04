@@ -1,0 +1,149 @@
+/* RESET */
+* {
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* CABEÇALHO */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    color: #ff2c2c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    box-shadow: 0 0 15px #ff2c2c88;
+    z-index: 100;
+}
+
+header h1 {
+    font-size: 24px;
+    text-shadow: 0 0 10px #ff2c2c, 0 0 20px #ff2c2c;
+    letter-spacing: 2px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ff2c2c;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+header nav a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px #ff2c2c, 0 0 20px #ff2c2c;
+}
+
+/* CONTAINER PRINCIPAL */
+.container {
+    min-height: 100vh;
+    padding: 120px 40px 60px;
+    color: white;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+        url('imagens/fundo-de-grade-de-neon_53876-91657.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* GRID DE PRODUTOS */
+.products-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+/* CARD */
+.card {
+    background: rgba(10, 10, 10, 0.85);
+    border: 1px solid #ff2c2c55;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255, 44, 44, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px #ff2c2c;
+}
+
+/* IMAGENS DOS PRODUTOS */
+.product-image {
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* IMAGENS INDIVIDUAIS */
+#img-1 { background-image: url('imagens/Crash-Team-Racing-capa-ps1-classicosps1.jpg'); }
+#img-2 { background-image: url('imagens/Harry-Potter-e-a-Camera-Secreta-capa-ps1-classicosps1.jpg'); }
+#img-3 { background-image: url('imagens/Marvel-vs-Capcom-Clash-of-Super-Heroes-Capa-ps1-classicosps1-1.jpg'); }
+#img-4 { background-image: url('imagens/Pac-Man-World-capa-ps1-classicosps1-min.jpg'); }
+#img-5 { background-image: url('imagens/Spider-Man-2-Enter-Electro-capa-ps1-classicosps1-min.jpg'); }
+#img-6 { background-image: url('imagens/Vigilante-8-Boxart-Cover-PSX.jpg'); }
+
+/* TÍTULOS DOS CARDS */
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #ff2c2c;
+    padding-left: 7px;
+    font-size: 20px;
+    text-align: left;
+}
+
+/* TEXTOS */
+.card p {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/* BOTÕES NEON */
+.btn {
+    display: block;
+    width: 70%;
+    margin: 10px auto 0;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: #ff2c2c;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 0 10px #ff2c2c, 0 0 20px #ff2c2c;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ff4747;
+    box-shadow: 0 0 25px #ff2c2c, 0 0 40px #ff2c2c;
+    transform: scale(1.05);
+}
+
+/* RODAPÉ */
+footer {
+    background: #000000;
+    padding: 20px;
+    text-align: center;
+    color: #ff2c2c;
+}
