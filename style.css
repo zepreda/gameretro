@@ -140,10 +140,46 @@ h3 {
     transform: scale(1.05);
 }
 
+#sobre {
+    background: #000000;
+    color: #ff2c2c;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(255, 44, 44, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+
+.quem_somos {
+    padding: 50px;
+}
+
+.texto_quem_somos {
+    color: #ff2c2c;
+    font-size: 1.1rem;
+    white-space: normal;
+    display: inline-block;
+    overflow: hidden; /* esconde o texto que ainda não apareceu */
+    border-right: 2px solid #ff2c2c; /* cursor */
+    width: 0; /* começa sem largura */
+    animation: typing 4s steps(80) forwards, blink .7s infinite;
+}
+
+/* Animação de digitação */
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+/* Piscar do cursor */
+@keyframes blink {
+    50% { border-color: transparent; }
+}
+
 /* RODAPÉ */
 footer {
     background: #000000;
     padding: 20px;
     text-align: center;
     color: #ff2c2c;
+    padding: 50px;
 }
