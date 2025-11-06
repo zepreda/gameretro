@@ -226,6 +226,89 @@ h3 {
     text-shadow: 0 0 15px #ff2c2c;
 }
 
+/* SEÇÃO CONTATO */
+.contato-section {
+    background: #000;
+    color: #ff2c2c;
+    padding: 80px 40px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(255, 44, 44, 0.3);
+}
+
+.contato-section h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    text-shadow: 0 0 15px #ff2c2c;
+}
+
+.contato-sub {
+    margin-bottom: 40px;
+    font-size: 1.1rem;
+}
+
+.contato-form {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ff2c2c;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ff2c2c66;
+    background: rgba(10, 10, 10, 0.8);
+    color: #fff;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: 0.3s;
+}
+
+.input-group input:focus,
+.input-group textarea:focus {
+    border-color: #ff2c2c;
+    box-shadow: 0 0 10px #ff2c2c, 0 0 20px #ff2c2c;
+}
+
+textarea {
+    resize: none;
+    height: 120px;
+}
+
+/* BOTÃO DO FORMULÁRIO */
+.btn-contato {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    background: #ff2c2c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    box-shadow: 0 0 10px #ff2c2c, 0 0 20px #ff2c2c;
+    transition: 0.3s;
+}
+
+.btn-contato:hover {
+    background: #ff4747;
+    box-shadow: 0 0 25px #ff2c2c, 0 0 40px #ff2c2c;
+    transform: scale(1.05);
+}
+
 /* RODAPÉ */
 footer {
     background: #000000;
